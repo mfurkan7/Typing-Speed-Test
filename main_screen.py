@@ -31,8 +31,6 @@ class MainScreen:
         self.get_word()
         self.text_entry()
 
-        messagebox.showinfo("Welcome !", "When you click the text box, timer starts!\nPlease press spacebar to approve your input!")
-
         self.window.mainloop()
 
     def get_word(self):
